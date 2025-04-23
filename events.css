@@ -1,0 +1,542 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+
+} 
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+} 
+:root {
+    --navi: #002147;
+    --yellow: #fdc800; 
+}
+
+.container {
+    width: 100%;
+    max-width:  65%;
+    margin: 0px auto;
+} 
+
+header .header1 {
+    background-color: var(--navi);
+}
+
+header .section1 {
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+header .section1 button {
+    border: none;
+    background-color: var(--navi);
+    color: white;
+    margin-right: 15px;
+
+}
+
+header .section1 button:hover {
+
+    color: var(--yellow);
+    transition: 2s;
+}
+
+/* HEADER SECTION-1 ENDS HERE*/
+ 
+.section2 {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+.section2 #part2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+   }
+.section2 #part2 a{
+    color: #002147c7;
+    padding-right: 15px;
+   }
+.section2 #part2 ul {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    color: #002147c7;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    transition: 2s;
+}
+.section2 #part2 a{
+    text-decoration: none;
+    color: #002147c7;
+}
+ 
+.section2 #part2 ul li {
+    padding: 40px 0px;
+}
+
+.section2 #part2 ul li:hover {
+    color: var(--yellow);
+    border-bottom: 4px solid var(--yellow);
+}  
+.section2 #part2 div a i{
+    padding: 40px 0px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: var(--navi);
+}
+.section2 #part2 div a i:hover {
+    color: var(--yellow);
+    border-bottom: 4px solid var(--yellow);
+}
+/* HEADER SECTION ENDS HERE*/ 
+/* BANNER SECTION */
+.herosection{ 
+    background-image:url("/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    
+}
+.herosection .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #002147c6;
+    padding: 100px 0px;
+}
+.herosection .event ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 14px;
+}
+
+.herosection .event h3{
+    font-size: 30px;
+    font-weight: 500;
+} 
+/* BANNER SECTION ENDS */
+
+/* MAIN SECTION STARTS */
+.section5a {
+    text-align: center;
+}
+
+.section5a h4 {
+    color: var(--navi);
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.section5a p {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.section5b {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px;
+    flex-wrap: wrap;
+
+}
+
+.section5b .photo {
+    width: 30%;
+    margin: 20px;
+}
+
+.section5b #photo1 {
+    background-image: url("https://htmldemo.net/study/study/img/event/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5b #photo2 {
+    background-image: url("https://htmldemo.net/study/study/img/event/2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section5b #photo3 {
+    background-image: url("https://htmldemo.net/study/study/img/event/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5b #photo4{
+    background-image: url("images/EVENT4.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5b #photo5{
+    background-image: url("images/EVENT5.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section5b #photo6{
+    background-image: url("images/depart.6.webp"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.section5b .photo .overlay {
+    width: 100%;
+    background-color: rgb(0 0 0 / 37%);
+}
+
+.section5b .date {
+    width: 70px;
+    height: 80px;
+    background-color: var(--yellow);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 30px;
+
+}
+
+.section5b .date span {
+    font-size: 19px;
+}
+
+.section5b .photo .text {
+    width: auto;
+    margin: 300px 0px 0px 30px;
+    color: white;
+
+}
+
+.section5b .photo .text h5 {
+    font-size: 22px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.section5b .photo .text h5:hover {
+    color: var(--yellow);
+}
+
+.section5b .photo .text p {
+    font-size: 14px;
+    padding: 10px 0px 20px 0px;
+}
+
+/* MAIN SECTION  ENDS */ 
+/* FOOTER SECTION */
+footer {
+    background-color: var(--navi);
+    padding: 60px 0px 0px 0px;
+    color: white;
+} 
+.section1 .part1 { 
+    display: flex;
+}
+
+.section1 .part1 .part1a { 
+    width: 25%; 
+}
+
+.section1 .part1 .part1a p {
+    font-size: 13px;
+    padding: 15px 25px 15px 0px ;
+    line-height: 1.6;
+}
+
+.section1 .part1 .part1a #flex {
+    display: flex;
+    gap: 25px;
+}
+
+.section1 .part1 .part1a li {
+    font-size: 13px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.section1 .part1 .part1a li i:hover {
+    color: var(--yellow)
+}
+
+.section1 .part1 .part1a h6 {
+    font-size: 20px; 
+}
+
+.section1 .part1 .part1a #links li {
+    font-size: 14px; 
+}
+
+.foot1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.foot1 .foot1-1 p {
+
+    font-size: 12px;
+    padding:  20px 0;
+}
+
+.foot1 .foot1-1 #themes {
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+.footmain { 
+    border-top: 1px solid #ccc;
+    
+}
+
+.section1 .part1 .part1a #photo {
+    display: flex;
+    padding: 10px 0px;
+    gap: 10px 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.part1a #photo .pics {
+    width: 31%;
+
+}
+
+.part1a #photo .pics img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+@media (max-width:480px){
+    .container {
+        width: 100%;
+        max-width: 95%;
+        margin: 0px auto;
+    }
+    header .section1 {
+        font-size: 13px;
+        color: white;
+        display: block;
+         text-align: center;
+        padding: 15px 0px;
+    }
+    .section2 #part2 ul{
+        display: none;
+    }
+    .section2 #part2  {
+        padding: 25px 0px;
+    }
+    .herosection .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: #002147c6;
+        padding: 60px 0px;
+    }
+    .herosection .event h3{
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+    .section5b {
+        display: block;  
+    }
+    .section5b .photo {
+        width: 100%;
+        height: 100%;
+        margin: 20px 0px; 
+    }
+    
+    .section5b .photo .overlay {
+        width:  100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 37%);
+    }
+    .section1 .part1 { 
+        display: block;
+    }
+    .section1 .part1 .part1a { 
+        width: 100%;
+    
+    }
+    .section1 .part1 .part1a h6 {
+        font-size: 20px;
+        padding: 25px 0px;
+    }
+    .foot1 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin:20px 0px;
+    }
+    .foot1 .foot1-1 p {
+
+        font-size: 11px;
+        padding:10px 0;
+    }
+    .foot1 .foot1-2 p {
+
+        font-size: 11px;
+        padding-bottom:30px ;
+    }
+}
+
+
+@media(max-width:767px) and (min-width:481px){
+    .container {
+        width: 100%;
+        max-width: 70%;
+        margin: 0px auto;
+    }
+    .section2 #part2 ul{
+        display: none;
+    }
+    .section2 #part2  {
+        padding: 25px 0px;
+    }
+    .herosection .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: #002147c6;
+        padding: 60px 0px;
+    }
+    .herosection .event h3{
+        font-size: 22px;
+        padding-bottom: 10px;
+        font-weight: 500; 
+    }
+    .section5b {
+        display: block;  
+    }
+    .section5b .photo {
+        width: 100%;
+        height: 100%;
+        margin: 50px 0px; 
+    }
+    
+    .section5b .photo .overlay {
+        width:  100%;
+        height: 100%;
+        background-color: rgb(0 0 0 / 37%);
+    }
+    .section1 .part1 { 
+        display: block;
+    }
+    .section1 .part1 .part1a { 
+        width: 100%;
+    
+    }
+    .section1 .part1 .part1a h6 {
+        font-size: 20px;
+        padding: 25px 0px;
+    }
+    .foot1 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin:20px 0px;
+    }
+    .foot1 .foot1-1 p {
+
+        font-size: 11px;
+        padding:10px 0;
+    }
+    .foot1 .foot1-2 p {
+
+        font-size: 11px;
+        padding-bottom:30px ;
+    }
+}
+
+
+@media (max-width:1024px) and (min-width:768px){
+    .container {
+        width: 100%;
+        max-width: 90%;
+        margin: 0px auto;
+    }
+    .section2 #part2 ul {
+        font-size: 12px;
+        font-weight: 500;
+        display: flex;
+        color: #002147c7;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+        list-style: none;
+        transition: 2s;
+    }
+    .herosection .overlay{
+        width: 100%;
+        height: 100%;
+        background-color: #002147c6;
+        padding: 60px 0px;
+    }
+    .section5b {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0px;
+        flex-wrap: wrap; 
+        gap: 15px;
+    } 
+    .section5b .photo {
+        width: 32%;
+        margin: 0px; 
+    }
+    .section5b .photo .text {
+        width: auto;
+        margin: 150px 0px 0px 30px;
+        color: white;
+    
+    }
+}
+
+
+@media(max-width:1440px) and (min-width:1025px){
+    .container {
+        width: 100%;
+        max-width: 80%;
+        margin: 0px auto;
+    }
+    .section5b {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px 0px;
+        flex-wrap: wrap; 
+        gap: 15px;
+    } 
+    .section5b .photo {
+        width: 32%;
+        margin: 0px; 
+    }
+}
+
+@media(max-width:above) and (min-width:1441px){
+    .container {
+        width: 100%;
+        max-width: 80%;
+        margin: 0px auto;
+    }
+}

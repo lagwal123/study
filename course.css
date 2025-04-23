@@ -1,0 +1,1248 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+:root {
+    --navi: #002147;
+    --yellow: #fdc800;
+}
+
+.container {
+    width: 100%;
+    max-width:  65%;
+    margin: 0px auto;
+} 
+
+/*  SECTION HEADER STARTS HERE */
+header .header1 {
+    background-color: var(--navi);
+}
+
+header .section1 {
+    width: 100%;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+header .section1 button {
+    border: none;
+    background-color: var(--navi);
+    color: white;
+    margin-right: 15px;
+}
+
+header .section1 button:hover {
+    color: var(--yellow);
+    transition: 2s;
+}
+
+/* HEADER SECTION-1 ENDS HERE*/
+/* HEADER SECTION-2 STARTS HERE*/
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2 #part2 ul {
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    color: #002147c7;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    list-style: none;
+    transition: 2s;
+}
+
+.section2 #part2 ul li a {
+    text-decoration: none;
+    color: #002147c7;
+}
+
+.section2 #part2 ul li {
+    padding: 30px 0px;
+}
+
+.section2 #part2 ul li:hover {
+    color: var(--yellow);
+    border-bottom: 4px solid var(--yellow);
+}
+
+.section2 #part2 ul i {
+    padding: 30px 0px;
+} 
+.section2  div a i {
+    padding: 30px 0px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: var(--navi);
+}
+
+.section2  div a i:hover {
+    color: var(--yellow);
+    border-bottom: 4px solid var(--yellow);
+}
+
+/* HEADER SECTION-2  endS HERE*/
+/* SECTION DEPARTMENT banner STARTS HERE*/
+.department-1 {
+    background-image: url("/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #002147c7;
+    padding: 100px 0px;
+}
+
+.department-1 #h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 0px;
+}
+
+.department-1 ul {
+    display: flex;
+    justify-content: center;
+    color: var(--navi);
+    text-align: center;
+    font-size: 12px;
+    list-style: none;
+    color: white;
+}
+
+.department-1 ul li:hover {
+    color: var(--yellow);
+}
+
+/* SECTION DEPARTMENT banner END HERE*/
+/* SECTION DEPARTMENT STARTS HERE*/
+
+.department {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.department_image {
+    width: 30%;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.851);
+}
+
+.department_image:hover {
+    box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.766);
+}
+
+.department_image img {
+    width: 100%;
+}
+
+.department_image .img_text {
+    padding: 20px 20px;
+}
+
+.department_image .img_text h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--navi);
+    padding: 10px 0px;
+    transition: 1s;
+}
+
+.department_image .img_text h2:hover {
+    color: var(--yellow);
+}
+
+.department_image .img_text p {
+    font-size: small;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.department_image .img_text p:hover {
+    color: var(--yellow);
+}
+
+/* FOOTER SECTION */
+
+footer {
+    background-color: var(--navi);
+    padding: 60px 0px 0px 0px;
+    color: white;
+    margin-top: 100px;
+}
+
+.section1 .part1 {
+    display: flex;
+}
+
+.section1 .part1 .part1a {
+    width: 25%;
+}
+
+.section1 .part1 .part1a p {
+    font-size: 13px;
+    padding: 15px 0px;
+    line-height: 1.6;
+}
+
+.section1 .part1 .part1a #flex {
+    display: flex;
+    gap: 25px;
+}
+
+.section1 .part1 .part1a li {
+    font-size: 13px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.section1 .part1 .part1a li i:hover {
+    color: var(--yellow)
+}
+
+.section1 .part1 .part1a h6 {
+    font-size: 20px;
+}
+
+.section1 .part1 .part1a #links li {
+    font-size: 14px;
+}
+.section1 .part1 .part1a #photo {
+    display: flex;
+    padding: 10px 0px;
+    gap: 10px 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.part1a #photo .pics {
+    width: 31%;
+}
+
+.part1a #photo .pics img {
+    width: 100%;
+    height: 100%;
+}
+.footmain {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.foot1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.foot1 .foot1-1 p {
+    font-size: 12px;
+    padding: 20px 0px;
+}
+
+.foot1 .foot1-1 #themes {
+    color: var(--yellow);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:480px) {
+    .container {
+        width: 100%;
+        max-width: 80%;
+        margin: 0px auto;
+    }
+
+    /*  SECTION HEADER STARTS HERE */
+    header .header1 {
+        background-color: var(--navi);
+    }
+
+    header .section1 {
+        width: 100%;
+        font-size: 13px;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    header .section1 #part1 {
+        padding-bottom: 10px;
+    }
+
+    header .section1 button {
+        border: none;
+        background-color: var(--navi);
+        color: white;
+        margin-right: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section2 #part2 ul {
+        font-size: 12px;
+        font-weight: 500;
+        display: none;
+        color: #002147c7;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        list-style: none;
+        transition: 2s;
+    }
+
+    .section2 #part2 ul li a {
+        text-decoration: none;
+        color: #002147c7;
+    }
+
+    .section2 #part2 ul li {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul li:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    .section2 #part2 ul i {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul i:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    /* HEADER SECTION-2  endS HERE*/
+    /* SECTION DEPARTMENT banner STARTS HERE*/
+    .department-1 {
+        background-image: url("/images/banner.jpg");
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #002147c7;
+    }
+
+    .department-1 h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+
+    .department-1 ul {
+        display: flex;
+        justify-content: center;
+        color: var(--navi);
+        text-align: center;
+        font-size: 12px;
+        list-style: none;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+    .department-1 ul li:hover {
+        color: var(--yellow);
+    }
+
+    /* SECTION DEPARTMENT banner END HERE*/
+    /* SECTION DEPARTMENT STARTS HERE*/
+    .department {
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .department_image {
+        width: 100%;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.851);
+    }
+
+    /* FOOTER SECTION */
+    footer {
+        background-color: var(--navi);
+        padding: 60px 0px 0px 0px;
+        color: white;
+    }
+
+    .section1 .part1 {
+        display: block;
+    }
+
+    .section1 .part1 .part1a {
+        width: 100%;
+    }
+
+    .section1 .part1 .part1a p {
+        font-size: 12px;
+        padding: 15px 0px;
+        line-height: 1.8;
+    }
+
+    .section1 .part1 .part1a #flex {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+
+    .section1 .part1 .part1a h6 {
+        font-size: 17px;
+        font-weight: 800;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+
+    .section1 .part1 .part1a li {
+        font-size: 13px;
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    .section1 .part1 .part1a #links li {
+        font-size: 14px;
+    }
+
+    .section1 .part1 .part1a #photo {
+        display: flex;
+        padding: 10px 0px;
+        gap: 10px 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .part1a #photo .pics {
+        width: 31%;
+    }
+
+    .part1a #photo .pics img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footmain {
+        border-top: 1px solid #ccc;
+        margin: 40px 0px;
+    }
+
+    .foot1 {
+        display: block;
+        text-align: center;
+        margin: 25px 0px 25px 0px;
+    }
+
+    .foot1 .foot1-1 p {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+    .foot1 .foot1-1 #themes {
+        color: var(--yellow);
+        text-decoration: underline;
+    }
+
+    .foot1 .foot1-2 {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:767px) and (min-width:481px) {
+    .container {
+        width: 100%;
+        max-width: 80%;
+        margin: 0px auto;
+    }
+
+    /*  SECTION HEADER STARTS HERE */
+    header .header1 {
+        background-color: var(--navi);
+    }
+
+    header .section1 {
+        width: 100%;
+        font-size: 13px;
+        color: white;
+        display: flex;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    header .section1 #part1 {
+        padding-bottom: 10px;
+    }
+
+    header .section1 button {
+        border: none;
+        background-color: var(--navi);
+        color: white;
+        margin-right: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section2 #part2 ul {
+        font-size: 12px;
+        font-weight: 500;
+        display: none;
+        color: #002147c7;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        list-style: none;
+        transition: 2s;
+    }
+
+    .section2 #part2 ul li a {
+        text-decoration: none;
+        color: #002147c7;
+    }
+
+    .section2 #part2 ul li {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul li:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    .section2 #part2 ul i {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul i:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    /* HEADER SECTION-2  endS HERE*/
+    /* SECTION DEPARTMENT banner STARTS HERE*/
+    .department-1 {
+        background-image: url("/images/banner.jpg");
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #002147c7;
+    }
+
+    .department-1 h2 {
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+
+    .department-1 ul {
+        display: flex;
+        justify-content: center;
+        color: var(--navi);
+        text-align: center;
+        font-size: 12px;
+        list-style: none;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+    .department-1 ul li:hover {
+        color: var(--yellow);
+    }
+
+    /* SECTION DEPARTMENT banner END HERE*/
+    /* SECTION DEPARTMENT STARTS HERE*/
+    .department {
+        display: block;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .department_image {
+        width: 100%;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.851);
+    }
+
+    /* FOOTER SECTION */
+    footer {
+        background-color: var(--navi);
+        padding: 60px 0px 0px 0px;
+        color: white;
+    }
+
+    .section1 .part1 {
+        display: block;
+    }
+
+    .section1 .part1 .part1a {
+        width: 100%;
+    }
+
+    .section1 .part1 .part1a p {
+        font-size: 12px;
+        padding: 15px 0px;
+        line-height: 1.8;
+    }
+
+    .section1 .part1 .part1a #flex {
+        display: flex;
+        gap: 25px;
+        margin-bottom: 40px;
+    }
+
+    .section1 .part1 .part1a h6 {
+        font-size: 17px;
+        font-weight: 800;
+        margin: 30px 0px;
+        text-transform: uppercase;
+    }
+
+    .section1 .part1 .part1a li {
+        font-size: 13px;
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    .section1 .part1 .part1a #links li {
+        font-size: 14px;
+    }
+
+    .section1 .part1 .part1a #photo {
+        display: flex;
+        padding: 10px 0px;
+        gap: 10px 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .part1a #photo .pics {
+        width: 31%;
+    }
+
+    .part1a #photo .pics img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footmain {
+        border-top: 1px solid #ccc;
+        margin: 40px 0px;
+    }
+
+    .foot1 {
+        display: block;
+        text-align: center;
+        margin: 25px 0px 25px 0px;
+    }
+
+    .foot1 .foot1-1 p {
+        font-size: 12px;
+        padding: 10px 0px;
+    }
+
+    .foot1 .foot1-1 #themes {
+        color: var(--yellow);
+        text-decoration: underline;
+    }
+
+    .foot1 .foot1-2 {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:1024px) and (min-width:768px) {
+    .container {
+        width: 100%;
+        max-width: 85%;
+        margin: 0px auto;
+    }
+
+    /*  SECTION HEADER STARTS HERE */
+    header .header1 {
+        background-color: var(--navi);
+    }
+
+    header .section1 {
+        width: 100%;
+        font-size: 13px;
+        color: white;
+        display: flex;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    header .section1 #part1 {
+        padding-bottom: 10px;
+    }
+
+    header .section1 button {
+        border: none;
+        background-color: var(--navi);
+        color: white;
+        margin-right: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section2  #part2 {
+        display: flex;
+    }
+    .section2 #part2 ul {
+        font-size: 12px;
+        font-weight: 500;
+        display: flex;
+        color: #002147c7;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        list-style: none;
+        transition: 2s;
+    }
+
+    .section2 #part2 ul li a {
+        text-decoration: none;
+        color: #002147c7;
+    }
+
+    .section2 #part2 ul li {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul li:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    .section2 #part2 ul i {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul i:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    /* HEADER SECTION-2  endS HERE*/
+    /* SECTION DEPARTMENT banner STARTS HERE*/
+    .department-1 {
+        background-image: url("/images/banner.jpg");
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        color: white;
+        
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #002147c7;
+        padding: 50px 0px;
+    }
+
+    .department-1 #h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+
+    .department-1 ul {
+        display: flex;
+        justify-content: center;
+        color: var(--navi);
+        text-align: center;
+        font-size: 12px;
+        list-style: none;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+    .department-1 ul li:hover {
+        color: var(--yellow);
+    }
+
+    /* SECTION DEPARTMENT banner END HERE*/
+    /* SECTION DEPARTMENT STARTS HERE*/
+    .department {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        gap: 10px;
+    }
+
+    .department_image {
+        width: 32%;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.851);
+    }
+
+    /* FOOTER SECTION */
+    footer {
+        background-color: var(--navi);
+        padding: 60px 0px 0px 0px;
+        color: white;
+        margin-top: 100px;
+    }
+    
+    .section1 .part1 {
+        display: flex;
+    }
+    
+    .section1 .part1 .part1a {
+        width: 25%;
+    }
+    
+    .section1 .part1 .part1a p {
+        font-size: 13px;
+        padding: 15px 0px;
+        line-height: 1.6;
+    }
+    
+    .section1 .part1 .part1a #flex {
+        display: flex;
+        gap: 25px;
+    }
+    
+    .section1 .part1 .part1a li {
+        font-size: 13px;
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    .section1 .part1 .part1a li i:hover {
+        color: var(--yellow)
+    }
+    
+    .section1 .part1 .part1a h6 {
+        font-size: 20px;
+    }
+    
+    .section1 .part1 .part1a #links li {
+        font-size: 14px;
+    }
+    
+    .foot1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    
+    .foot1 .foot1-1 p {
+        font-size: 12px;
+        padding: 20px 0px;
+    }
+    
+    .foot1 .foot1-2 #themes {
+        color: var(--yellow);
+    }
+    
+    .footmain {
+        border-top: 1px solid #ccc;
+        margin-top: 20px;
+    }
+    
+    .section1 .part1 .part1a #photo {
+        display: flex;
+        padding: 10px 0px;
+        gap: 10px 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .part1a #photo .pics {
+        width: 31%;
+    }
+    
+    .part1a #photo .pics img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:1440px) and (min-width:1025px) {
+    .container {
+        width: 100%;
+        max-width: 85%;
+        margin: 0px auto;
+    }
+
+    /*  SECTION HEADER STARTS HERE */
+    header .header1 {
+        background-color: var(--navi);
+    }
+
+    header .section1 {
+        width: 100%;
+        font-size: 13px;
+        color: white;
+        display: flex;
+        text-align: center;
+        padding: 15px 0px;
+    }
+
+    header .section1 #part1 {
+        padding-bottom: 10px;
+    }
+
+    header .section1 button {
+        border: none;
+        background-color: var(--navi);
+        color: white;
+        margin-right: 15px;
+    }
+
+    .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .section2  #part2 {
+        display: flex;
+    }
+    .section2 #part2 ul {
+        font-size: 12px;
+        font-weight: 500;
+        display: flex;
+        color: #002147c7;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        list-style: none;
+        transition: 2s;
+    }
+
+    .section2 #part2 ul li a {
+        text-decoration: none;
+        color: #002147c7;
+    }
+
+    .section2 #part2 ul li {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul li:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    .section2 #part2 ul i {
+        padding: 30px 0px;
+    }
+
+    .section2 #part2 ul i:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+
+    /* HEADER SECTION-2  endS HERE*/
+    /* SECTION DEPARTMENT banner STARTS HERE*/
+    .department-1 {
+        background-image: url("/images/banner.jpg");
+        background-position: center;
+        width: 100%;
+        height: 100%;
+        text-transform: uppercase;
+        color: white;
+        
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: #002147c7;
+        padding: 50px 0px;
+    }
+
+    .department-1 #h2 {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        padding: 10px 0px;
+    }
+
+    .department-1 ul {
+        display: flex;
+        justify-content: center;
+        color: var(--navi);
+        text-align: center;
+        font-size: 12px;
+        list-style: none;
+        color: white;
+        padding-bottom: 50px;
+    }
+
+    .department-1 ul li:hover {
+        color: var(--yellow);
+    }
+
+    /* SECTION DEPARTMENT banner END HERE*/
+    /* SECTION DEPARTMENT STARTS HERE*/
+    .department {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 100px;
+        gap: 10px;
+    }
+
+    .department_image {
+        width: 32%;
+        margin-top: 30px;
+        background-color: white;
+        box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.851);
+    }
+
+    /* FOOTER SECTION */
+    footer {
+        background-color: var(--navi);
+        padding: 60px 0px 0px 0px;
+        color: white;
+        margin-top: 100px;
+    }
+    
+    .section1 .part1 {
+        display: flex;
+    }
+    
+    .section1 .part1 .part1a {
+        width: 25%;
+    }
+    
+    .section1 .part1 .part1a p {
+        font-size: 13px;
+        padding: 15px 0px;
+        line-height: 1.6;
+    }
+    
+    .section1 .part1 .part1a #flex {
+        display: flex;
+        gap: 25px;
+    }
+    
+    .section1 .part1 .part1a li {
+        font-size: 13px;
+        list-style: none;
+        margin-top: 10px;
+    }
+    
+    .section1 .part1 .part1a li i:hover {
+        color: var(--yellow)
+    }
+    
+    .section1 .part1 .part1a h6 {
+        font-size: 20px;
+    }
+    
+    .section1 .part1 .part1a #links li {
+        font-size: 14px;
+    }
+    
+    .foot1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0px;
+    }
+    
+    .foot1 .foot1-1 p {
+        font-size: 12px;
+        padding: 20px 0px;
+    }
+    
+    .foot1 .foot1-2 #themes {
+        color: var(--yellow);
+    }
+    
+    .footmain {
+        border-top: 1px solid #ccc;
+        margin-top: 20px;
+    }
+    
+    .section1 .part1 .part1a #photo {
+        display: flex;
+        padding: 10px 0px;
+        gap: 10px 0px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .part1a #photo .pics {
+        width: 31%;
+    }
+    
+    .part1a #photo .pics img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width:above) and (min-width:1441px){
+    .container {
+        width: 100%;
+        max-width: 80%;
+        margin: 0px auto;
+    }
+    .section2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .section2 #part2 ul {
+        font-size: 25px;
+        font-weight: 500;
+        display: flex; 
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        color: #002147c7;
+        list-style: none;
+        transition: 2s;
+        padding-bottom: 100px;
+    }
+    
+    .section2 #part2 ul li a {
+        text-decoration: none;
+        color: #002147c7;
+        padding: 100px 0px;
+    }
+    
+    .section2 #part2 ul li {
+        padding: 100px 0px;
+    }
+    
+    .section2 #part2 ul li:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+    
+    
+    
+    .section2  div a i {
+        padding: 30px 0px;
+        margin-left: 0px;
+        text-decoration: none;
+        color: var(--navi);
+    }
+    
+    .section2  div a i:hover {
+        color: var(--yellow);
+        border-bottom: 4px solid var(--yellow);
+    }
+    /* HEADER SECTION-2  endS HERE*/
+   /* SECTION DEPARTMENT banner STARTS HERE*/
+ .department-1 {
+    background-image: url("/images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-transform: uppercase;
+    color: white;
+    }
+
+    .overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #002147c7;
+    padding: 100px 0px;
+    }
+  .dep{
+    padding: 100px 0px;
+  }
+  .department-1 #h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px;
+  }
+
+  .department-1 ul {
+    display: flex;
+    justify-content: center;
+    color: var(--navi);
+    text-align: center;
+    font-size: 12px;
+    list-style: none;
+    color: white;
+  }
+
+  .department-1 ul li:hover {
+    color: var(--yellow);
+  }
+}
